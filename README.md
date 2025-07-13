@@ -7,7 +7,7 @@ Hata durumlarında ekran görüntüsü alma özelliği `commons-io` kütüphanes
 ![Insider Logo](https://github.com/user-attachments/assets/75536767-e0c8-48c5-b461-4e3c00c5be8e)
 
 **Testin Çalışma Videosu**  
-[🔗 Loom Videosu: insider UI Test Demo](https://www.loom.com/share/0d077ab12445465a8e4cdb6b3ee92aa3?sid=ec0236ac-314c-4135-8b83-576d588cd5d4)
+[🔗 Loom Videosu: Hata alınan senaryoda screenshot işlevi](https://www.loom.com/share/0d077ab12445465a8e4cdb6b3ee92aa3?sid=ec0236ac-314c-4135-8b83-576d588cd5d4)
 
 ---
 
