@@ -1,5 +1,6 @@
 package neseilhan.insider.drivers;
 
+import neseilhan.insider.utils.ConfigReader;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
@@ -8,6 +9,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BaseDriver {
     public static WebDriver driver;
+
+    ConfigReader configReader;
+
+    public BaseDriver() {
+        configReader = new ConfigReader();
+    }
     @Before
     public void setUp() {
         driver = new ChromeDriver(getChromeOptions());
