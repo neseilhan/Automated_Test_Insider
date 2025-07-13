@@ -29,7 +29,7 @@ public class QAJobsPage extends BaseMethods {
         waitBySecond(3); //beklenmedigi zaman sayfa yavas yuklenebiliyor ve "position title bulunmadı hatası geliyor.
         // (Screenshot klasöründe hata alındıgı zamanki ss mevcut.)
         try {
-            checkIsTextContainsList("jobsPositionTitles", "Quality Assurance."); //hata almak için sonuna nokta ekledim ve screenshotlarda görebildim.
+            checkIsTextContainsList("jobsPositionTitles", "Quality Assurance"); //hata almak için sonuna nokta ekledim ve screenshotlarda görebildim.
             saveValueLastJob("jobsPositionTitles");
         } catch (AssertionError e) {
             try {

@@ -38,7 +38,7 @@ public class BaseMethods {
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 //        File File = ((TakesScreenshot)driver)
 //                .getScreenshotAs(OutputType.FILE);
-        String fileNamewithTimeStamp = FileName + "_" + timestamp + ".jpeg";
+        String fileNamewithTimeStamp = FileName + "_" + timestamp + ".jpeg"; //olusturulan dosya adları farklı olsun timestamp eklesin
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(screenshot,
                 new File("D:\\IdeaProjects\\automated_test_insider\\src\\test\\java\\Screenshots\\"
@@ -140,11 +140,6 @@ public class BaseMethods {
         }
 
     }
-
-//    protected void saveValue(String key) {
-//        String cleanValue = findElement(key).getText().replace(" /", "");
-//        savedValue.put(key, cleanValue);
-//    }
 
     protected void saveValueLastJob(String key) {
         WebElement element = findsElements(key).get(sizeJobList - 1);
